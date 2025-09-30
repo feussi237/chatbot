@@ -1,0 +1,537 @@
+{
+"intents": [
+    {
+    "tag": "salutation",
+    "patterns": [
+      "Bonjour",
+      "Salut",
+      "Bonsoir",
+      "Hello",
+      "Salut, comment ça va ?",
+      "Coucou",
+      "Hey",
+      "Bonsoir à vous",
+      "Salut le bot",
+      "Bonjour, tu vas bien ?"
+    ],
+    "responses": [
+        "Bonjour ! Comment puis je vous aider aujourd’hui ?",
+        "Salut ! Je suis là pour répondre à vos questions.",
+        "Bonsoir ! Que puis-je faire pour vous ?",
+        "Hello ! Bienvenue chez Web Agency. Posez-moi votre question.",
+        "Salut ! Je suis content de vous voir ici. Comment puis je vous assister ?"
+    ]
+    },
+
+    {
+    "tag": "au_revoir",
+    "patterns": [
+        "Au revoir",
+        "Bye",
+        "À bientôt",
+        "Bonne journée",
+        "Salut, à la prochaine",
+        "Je dois partir",
+        "On se reparle plus tard",
+        "Merci, au revoir",
+        "Bonne soirée",
+        "Ciao"
+        ],
+        "responses": [
+        "Au revoir ! Passez une excellente journée !",
+        "À bientôt ! Prenez soin de vous !",
+        "Bye ! Si vous avez besoin de quelque chose, n’hésitez pas.",
+        "Prenez soin de vous ! Je suis là si vous avez besoin d’aide à nouveau.",
+        "Bonne continuation et à la prochaine !"
+    ]
+    },
+
+    {
+    "tag": "remerciement",
+    "patterns": [
+        "Merci",
+        "Merci beaucoup",
+        "Je te remercie",
+        "C'est gentil",
+        "Merci pour ton aide",
+        "Merci le bot",
+        "Merci bien",
+        "Merci pour les infos",
+        "Merci pour ta réponse",
+        "Merci pour tout"
+    ],
+    "responses": [
+        "C’est un plaisir !",
+        "Je vous en prie !",
+        "Pas de problème, heureux de pouvoir aider !",
+        "Quand vous voulez ! Si vous avez d’autres questions, n’hésitez pas.",
+        "Avec plaisir ! N'hésitez pas si autre chose vous vient à l'esprit."
+        ]
+        
+    },
+
+    {
+      "tag": "localisation_agence",
+      "patterns": [
+        "Où est située votre agence ?",
+        "Où êtes vous situés ?",
+        "Quelle est votre adresse ?",
+        "Je cherche l'adresse de votre agence.",
+        "Où se trouvent vos bureaux ?",
+        "Comment vous trouver ?",
+        "Donnez moi votre localisation."
+      ],
+      "responses": [
+        "Nous sommes basés à Bafoussam, au Cameroun, et nous intervenons partout où le digital peut faire la différence.",
+        "Notre agence est située à Bafoussam, au Cameroun. Cependant, nous travaillons avec des clients partout dans le monde grâce au numérique !"
+      ]
+    },
+    {
+      "tag": "atouts_agence",
+      "patterns": [
+        "Qu’est ce qui vous distingue des autres agences ?",
+        "Quels sont vos avantages concurrentiels ?",
+        "Pourquoi vous et pas une autre agence ?",
+        "Quelle est votre valeur ajoutée ?",
+        "Qu'est ce qui vous rend spéciaux ?",
+        "En quoi êtes vous différents ?",
+        "Quels sont vos points forts ?"
+      ],
+      "responses": [
+        "Notre force réside dans la qualité de nos réalisations, le respect des délais et notre accompagnement personnalisé. Nous ne livrons pas seulement des solutions, nous formons nos clients pour qu’ils en tirent le meilleur profit."
+      ]
+    },
+    {
+      "tag": "pourquoi_choisir_agence",
+      "patterns": [
+        "Pourquoi devrais je choisir WEB AGENCY ETS ?",
+        "Convainquez moi de vous choisir.",
+        "Pourquoi faire appel à vos services ?",
+        "Quelles sont les raisons de travailler avec vous ?",
+        "Pourquoi WEB AGENCY ETS ?",
+        "Donnez moi de bonnes raisons de vous engager.",
+        "Qu'est ce que j'y gagne en vous choisissant ?"
+      ],
+      "responses": [
+        "Parce que nous sommes une agence de confiance, reconnue pour notre sérieux, notre expertise et notre engagement à respecter les accords initiaux. Nos clients nous recommandent pour notre professionnalisme et nos résultats concrets."
+      ]
+    },
+    {
+      "tag": "creation_agence",
+      "patterns": [
+        "Quand votre agence a-t-elle été créée ?",
+        "Depuis quand existez-vous ?",
+        "Quelle est l'année de création de Web Agency ?",
+        "Parlez-moi de vos débuts.",
+        "Depuis combien de temps êtes-vous en activité ?",
+        "Quelle est votre histoire ?"
+      ],
+      "responses": [
+        "L’entreprise Web Agency a été créée en 2011. Depuis, nous avons réalisé de nombreux projets de réseaux, de télésurveillance et de création de sites web.",
+        "Nous avons démarré nos activités en 2011 avec pour mission de faire bénéficier à tous le plein potentiel des TIC."
+      ]
+    },
+     {
+      "tag": "types_sites_web",
+      "patterns": [
+        "Quels types de sites web proposez vous ?",
+        "Quel genre de site web faites vous ?",
+        "Vous créez quels sites ?",
+        "Je veux un site, que proposez vous ?",
+        "Quelles sont vos offres de création de sites ?",
+        "Vous faites des sites sur mesure ?",
+        "Parlez moi des types de sites."
+      ],
+      "responses": [
+        "Nous concevons des sites vitrines, e commerce, institutionnels, et sur mesure selon les besoins du client.",
+        "Nous créons des sites vitrines, des plateformes e commerce, des blogs, des portails d’entreprise et bien plus encore, tous adaptés à vos besoins."
+      ]
+    },
+    {
+      "tag": "solution_responsive",
+      "patterns": [
+        "Est ce que vous proposez une solution responsive ?",
+        "Est ce que vous créez des sites adaptés aux mobiles ?",
+        "Mon site sera t il visible sur téléphone ?",
+        "Vos sites fonctionnent sur tablette ?",
+        "Le design est il adaptatif ?",
+        "Faites vous des sites mobile friendly ?",
+        "Est-ce que le site s'affiche bien partout ?"
+      ],
+      "responses": [
+        "Bien sûr ! Tous nos sites sont adaptables aux écrans mobiles, tablettes et ordinateurs.",
+        "Oui, tous nos sites sont responsifs, donc parfaitement accessibles sur smartphones et tablettes."
+      ]
+    },
+    {
+      "tag": "site_multilingue",
+      "patterns": [
+        "Puis je avoir un site web multilingue ?",
+        "Est il possible d'avoir un site en plusieurs langues ?",
+        "Vous faites des sites en anglais et français ?",
+        "Je veux un site multilingue.",
+        "Comment ajouter une autre langue à mon site ?",
+        "Proposez vous la traduction de site web ?"
+      ],
+      "responses": [
+        "Oui, nous intégrons des fonctionnalités multilingues selon votre cible et vos préférences."
+      ]
+    },
+    {
+      "tag": "solution_ecommerce",
+      "patterns": [
+        "Proposez vous des solutions e commerce ?",
+        "Je veux vendre en ligne, pouvez vous m'aider ?",
+        "Créez vous des boutiques en ligne ?",
+        "Faites vous des sites marchands ?",
+        "Quelles sont vos solutions pour le e commerce ?",
+        "Je veux créer un site de vente."
+      ],
+      "responses": [
+        "Absolument. Nous créons des boutiques en ligne avec gestion des stocks, paiements sécurisés et suivi des commandes."
+      ]
+    },
+    {
+      "tag": "delai_creation_site",
+      "patterns": [
+        "Combien de temps faut il pour créer un site web ?",
+        "Quel est le délai pour la création d'un site ?",
+        "En combien de temps mon site sera prêt ?",
+        "Quelle est la durée de développement d'un site web ?",
+        "Le développement prend combien de temps ?",
+        "Quand puis je espérer avoir mon site ?"
+      ],
+      "responses": [
+        "Cela dépend du type de site et des fonctionnalités. En général, un site vitrine prend 1 à 2 semaines."
+      ]
+    },
+    {
+      "tag": "hebergement_maintenance",
+      "patterns": [
+        "Proposez vous de l’héberger ?",
+        "Proposez vous de l’hébergement ?",
+        "Avez vous un service de maintenance ?",
+        "Offrez vous l’hébergement et la maintenance ?",
+        "Pouvez vous héberger mon site ?",
+        "Est ce que vous faites la maintenance de sites ?",
+        "Vous gérez l’hébergement ?",
+        "Vous faites la maintenance ?",
+        "Je cherche un hébergeur",
+        "Mon site a besoin de maintenance, pouvez vous m’aider ?"
+      ],
+      "responses": [
+        "Oui, nous proposons des solutions d’hébergement sécurisées ainsi qu’un service de maintenance pour garantir la performance et la sécurité de votre site."
+      ]
+    },
+    {
+      "tag": "referencement_seo",
+      "patterns": [
+        "Faites vous du référencement ?",
+        "Proposez vous un service SEO ?",
+        "Est ce que vous pouvez améliorer le positionnement Google ?",
+        "Optimisez vous les sites pour les moteurs de recherche ?",
+        "Pouvez vous rendre mon site plus visible sur Google ?",
+        "Avez vous une offre de référencement ?",
+        "Comment améliorer le SEO de mon site ?",
+        "Mon site n'est pas bien référencé, pouvez vous m'aider ?",
+        "Je veux attirer plus de visiteurs sur mon site, que proposez vous ?",
+        "Est ce que vous faites du référencement naturel ?",
+        "Offrez vous un service de référencement (SEO) ?"
+      ],
+      "responses": [
+        "Tout à fait. Nous optimisons votre site pour qu’il soit bien positionné sur Google et attire plus de visiteurs qualifiés.",
+        "Oui, nous optimisons votre site pour qu’il soit bien positionné dans les moteurs de recherche."
+      ]
+    },
+    {
+      "tag": "securisation_reseaux",
+      "patterns": [
+        "Proposez vous des services de sécurisation de réseaux ?",
+        "Sécuriser mon réseau",
+        "je veux un parefeu ?",
+        "Vous installez des pare feux ?",
+        "Avez vous des solutions VPN ?",
+        "Sécurité réseau entreprise",
+        "Détection d’intrusions",
+        "Comment sécuriser mon réseau ?",
+        "Protection réseau",
+        "Comment sécurisez vous les réseaux ?",
+        "Avez vous des solutions contre les intrusions ?",
+        "Installez vous des pare feux ?",
+        "Est ce que vous configurez des VPN ?",
+        "Protection réseau disponible ?",
+        "Sécurisation informatique proposée ?",
+        "Faites vous de la cybersécurité ?"
+      ],
+      "responses": [
+        "Oui, nous mettons en place des pare feux, VPN, et des solutions de détection d’intrusions."
+      ]
+    },
+    {
+      "tag": "maintenance_reseau",
+      "patterns": [
+        "Assurez vous la maintenance des équipements réseau ?",
+        "Faites vous la maintenance réseau ?",
+        "Mon réseau est lent, pouvez vous le maintenir ?",
+        "Proposez vous des contrats de maintenance pour le réseau ?",
+        "Qui s'occupe de la maintenance du matériel réseau ?",
+        "Comment assurer le bon fonctionnement de mon réseau ?"
+      ],
+      "responses": [
+        "Oui, nous proposons des contrats de maintenance pour garantir la performance et la disponibilité du réseau."
+      ]
+    },
+    {
+      "tag": "service_telesurveillance",
+      "patterns": [
+        "Qu’inclut votre service de télésurveillance ?",
+        "Que comprend votre service de télésurveillance ?",
+        "Parlez moi de votre offre de télésurveillance.",
+        "Quels services offrez vous pour la surveillance à distance ?",
+        "Je veux un système de télésurveillance, que proposez vous ?",
+        "Détaillez votre service de télésurveillance."
+      ],
+      "responses": [
+        "Installation de caméras IP, accès à distance, alertes en temps réel et enregistrement sécurisé.",
+        "Il inclut l’installation de caméras, alarmes, contrôles d’accès, avec surveillance à distance."
+      ]
+    },
+    {
+      "tag": "securisation_bureaux",
+      "patterns": [
+        "Est ce que vous intervenez pour la sécurisation des bureaux ?",
+        "Comment sécuriser mes bureaux ?",
+        "Proposez vous des alarmes pour entreprise ?",
+        "Je veux sécuriser mes locaux professionnels.",
+        "Quelles solutions de sécurité pour les bureaux ?",
+        "Faites vous l'installation de contrôle d'accès ?"
+      ],
+      "responses": [
+        "Oui, nous proposons des systèmes d’alarme, des contrôles d’accès et une surveillance 24h/24."
+      ]
+    },
+    {
+      "tag": "solutions_domiciles",
+      "patterns": [
+        "Offrez vous des solutions pour les domiciles privés ?",
+        "Avez vous des systèmes de sécurité pour les maisons ?",
+        "Je veux sécuriser ma maison, que proposez vous ?",
+        "Faites vous des installations pour les particuliers ?",
+        "Quelles sont vos offres pour la sécurité résidentielle ?",
+        "Est ce que vos services sont aussi pour les appartements ?"
+      ],
+      "responses": [
+        "Bien sûr. Nos systèmes de sécurité s’adaptent aux maisons, appartements et résidences."
+      ]
+    },
+
+  {
+    "tag": "antenne_vsat",
+    "patterns": [
+      "Qu’est ce qu’une antenne VSAT ?",
+      "Explique ce qu’est une antenne VSAT",
+      "C’est quoi une antenne VSAT ?",
+      "Définition d’une antenne VSAT",
+      "À quoi sert une antenne VSAT ?",
+      "Quel est le rôle d’une antenne VSAT ?",
+      "Comment fonctionne une antenne VSAT ?",
+      "Utilité d’une antenne VSAT"
+    ],
+    "responses": [
+      "Une antenne VSAT est un dispositif satellite permettant une connexion Internet dans des zones mal desservies par le réseau terrestre."
+    ]
+  },
+  {
+    "tag": "fourniture_materiel_vsat",
+    "patterns": [
+      "Fournissez vous le matériel VSAT ?",
+      "Est ce que vous vendez des antennes VSAT ?",
+      "Peut on acheter le matériel VSAT chez vous ?",
+      "Avez vous des équipements VSAT ?",
+      "Proposez vous le kit VSAT complet ?",
+      "Est ce que vous fournissez le modem VSAT ?",
+      "Livrez vous les composants VSAT ?",
+      "Peut on commander une antenne VSAT chez vous ?"
+    ],
+    "responses": [
+      "Oui, nous proposons l’installation complète, y compris la fourniture de l’antenne, du modem et la configuration du service."
+    ]
+  },
+  {
+    "tag": "assistance_client",
+    "patterns": [
+      "Avez vous un service d’assistance client ?",
+      "Comment contacter votre support ?",
+      "Puis je parler à un conseiller ?",
+      "Y a t il un service client disponible ?",
+      "Offrez vous un accompagnement client ?",
+      "Est ce que je peux vous joindre en cas de problème ?",
+      "Comment fonctionne votre assistance ?",
+      "Qui contacter pour une aide technique ?"
+    ],
+    "responses": [
+      "Oui, notre équipe est disponible pour vous accompagner avant, pendant et après votre projet."
+    ]
+  },
+  {
+    "tag": "suivi_projet",
+    "patterns": [
+      "Comment puis je suivre l’avancement de mon projet ?",
+      "Y a t il un moyen de suivre mon projet ?",
+      "Comment savoir où en est mon projet ?",
+      "Est ce que je peux consulter l’état de mon projet ?",
+      "Avez vous un outil de suivi de projet ?",
+      "Puis je recevoir des mises à jour sur mon projet ?",
+      "Comment suivre les étapes de réalisation ?",
+      "Est ce que vous envoyez des rapports de suivi ?"
+    ],
+    "responses": [
+      "Vous recevrez des rapports réguliers et vous pouvez accéder à un espace client sécurisé en ligne."
+    ]
+  },
+  {
+    "tag": "modifications_post_livraison",
+    "patterns": [
+      "Puis je demander des modifications après la livraison ?",
+      "Est ce possible de faire des changements après la livraison ?",
+      "Peut on ajuster le projet une fois livré ?",
+      "Y a t il une période de modification après livraison ?",
+      "Comment faire des retouches après la livraison ?",
+      "Puis je corriger des éléments après réception ?",
+      "Est ce que vous acceptez les modifications post livraison ?",
+      "Peut on faire évoluer le projet après livraison ?"
+    ],
+    "responses": [
+      "Oui, nous offrons une période de support post livraison pour les ajustements nécessaires."
+    ]
+  },
+{
+    "tag": "intervention_domicile_entreprise",
+    "patterns": [
+      "Intervenez vous à domicile ou en entreprise ?",
+      "Est ce que vous vous déplacez chez les clients ?",
+      "Faites vous des interventions sur site ?",
+      "Vos techniciens peuvent ils venir à domicile ?",
+      "Peut on demander une intervention en entreprise ?",
+      "Est ce que vous proposez des visites techniques ?",
+      "Intervention possible dans nos locaux ?",
+      "Vous déplacez vous pour les réparations ?"
+    ],
+    "responses": [
+      "Oui, nos techniciens peuvent se déplacer selon vos besoins."
+    ]
+  },
+  {
+    "tag": "type_maintenance",
+    "patterns": [
+      "Quel type de maintenance proposez vous ?",
+      "Quels sont vos services de maintenance ?",
+      "Faites vous de la maintenance préventive ?",
+      "Proposez vous une maintenance évolutive ?",
+      "Quels types de maintenance informatique offrezvous ?",
+      "Maintenance curative disponible ?",
+      "Quels sont les niveaux de maintenance que vous gérez ?",
+      "Avez vous un plan de maintenance ?"
+    ],
+    "responses": [
+      "Préventive, curative et évolutive. Nous assurons la stabilité, la sécurité et les mises à jour de vos systèmes."
+    ]
+  },
+  {
+    "tag": "intervention_site_distance",
+    "patterns": [
+      "Intervenez vous sur site ou à distance ?",
+      "Est ce que vous pouvez dépanner à distance ?",
+      "Faites vous des interventions physiques ?",
+      "Peut on bénéficier d’un dépannage à distance ?",
+      "Vos services sont ils disponibles sur site ?",
+      "Comment intervenez vous en cas de panne ?",
+      "Est ce que vous envoyez un technicien si besoin ?",
+      "Intervention possible sans déplacement ?"
+    ],
+    "responses": [
+      "Les deux. Selon la gravité de la panne, nous pouvons dépanner à distance ou envoyer un technicien."
+    ]
+  },
+  {
+    "tag": "sauvegarde_donnees",
+    "patterns": [
+      "Gérez vous les sauvegardes et la récupération de données ?",
+      "Proposez vous des solutions de sauvegarde ?",
+      "Est ce que vous récupérez les données perdues ?",
+      "Avez vous un système de sauvegarde automatique ?",
+      "Comment protégez vous les données ?",
+      "Peut on restaurer des fichiers supprimés ?",
+      "Faites vous la récupération après crash ?",
+      "Sauvegarde et restauration de données disponibles ?"
+    ],
+    "responses": [
+      "Oui, nous mettons en place des systèmes de sauvegarde automatique et pouvons récupérer vos données en cas de perte."
+    ]
+  },
+  {
+    "tag": "installation_reseau_local",
+    "patterns": [
+      "Pouvez vous installer un réseau local dans nos bureaux ?",
+      "Est ce que vous installez des réseaux internes ?",
+      "Installation de câblage réseau possible ?",
+      "Configurez vous les réseaux locaux ?",
+      "Peut on vous confier l’installation d’un LAN ?",
+      "Réalisez vous des tests de réseau local ?",
+        "Installation réseau dans les locaux proposée ?",
+        "Pouvez vous installer un réseau local ?",
+        "Faites vous l’installation de réseau LAN ?",
+        "Installation de réseau dans nos bureaux ?",
+        "Vous installez des réseaux locaux ?",
+        "Besoin d’un réseau LAN",
+        "Installation réseau entreprise",
+        "Configurer un réseau local",
+        "Mettre en place un réseau dans nos locaux"
+    ],
+    "responses": [
+      "Absolument ! Nous prenons en charge l’installation complète du réseau LAN avec câblage, configuration et tests."
+    ]
+  },
+    {
+      "tag": "tarifs",
+      "patterns": [
+        "Quels sont vos tarifs ?",
+        "Combien coûte un site web?",
+        "Je voudrais un devis.",
+        "Pouvez-vous me donner une idée des prix ?",
+        "Comment obtenir un devis ?",
+        "Quel est le prix pour un site web ?"
+      ],
+      "responses": [
+        "Nos tarifs varient en fonction de la complexité de chaque projet. Pour obtenir un devis précis et gratuit, le mieux est de nous contacter directement via notre page de contact. Nous serons ravis d'étudier votre besoin.",
+        "Chaque projet est unique ! Pour vous donner un prix juste, nous avons besoin de comprendre vos attentes. N'hésitez pas à demander un devis gratuit sur notre site."
+      ]
+    },
+    {
+      "tag": "stage_emploi",
+      "patterns": [
+        "Recrutez-vous ?",
+        "Prenez-vous des stagiaires ?",
+        "Je cherche un stage.",
+        "Comment postuler chez vous ?",
+        "Avez-vous des offres d'emploi ?"
+      ],
+      "responses": [
+        "Nous sommes toujours à la recherche de nouveaux talents. Vous pouvez consulter nos offres ou nous envoyer une candidature spontanée via la section 'Stage' ou 'Contact' de notre site web."
+      ]
+    },
+    {
+      "tag": "partenariats",
+      "patterns": [
+        "Êtes-vous ouverts aux partenariats ?",
+        "Je voudrais vous proposer un partenariat.",
+        "Comment devenir votre partenaire ?",
+        "Cherchez-vous des partenaires ?"
+      ],
+      "responses": [
+        "Nous sommes toujours intéressés par des collaborations enrichissantes. N'hésitez pas à nous contacter via notre formulaire de contact pour nous présenter votre projet de partenariat."
+      ]
+    }
+
+]
+}
