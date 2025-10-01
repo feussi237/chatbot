@@ -22,6 +22,33 @@
         "Salut ! Je suis content de vous voir ici. Comment puis je vous assister ?"
     ]
     },
+    
+    {
+    "tag": "services",
+    "patterns": [
+        "Quels sont les services de webagency ?",
+        "Quels sont vos services ?",
+        "Que proposez-vous ?",
+        "Quels services offrez-vous ?",
+        "Quels sont les services disponibles ?",
+        "Quels sont les services de l'agence ?",
+        "Quels types de services proposez-vous ?",
+        "Quels sont vos domaines d'intervention ?",
+        "Quels sont les services que vous proposez ?",
+        "Quels sont les services proposés ?",
+        "Quels sont les services de Web Agency ?",
+        "Quels services puis-je obtenir ?",
+        "Quels sont les services que vous fournissez ?",
+        "Quels sont les services disponibles chez vous ?",
+        "Quels sont les services que vous offrez ?",
+        "Quels sont les services de votre entreprise ?",
+        "Quels sont les services proposés par l'agence ?",
+        "Quels sont les services proposés par Web Agency ?"
+        ],
+        "responses": [
+        "Nous Proposons la Création de sites web, Télésurveillance & Sécurité, Maintenance Informatique, Conseils, nous formons egalement des Stagiaires & Apprenants. Pour obtenir un devis, rendez-vous sur notre page : https://webagency.com/devis.php"
+    ]
+    },
 
     {
     "tag": "au_revoir",
@@ -42,8 +69,7 @@
         "À bientôt ! Prenez soin de vous !",
         "Bye ! Si vous avez besoin de quelque chose, n’hésitez pas.",
         "Prenez soin de vous ! Je suis là si vous avez besoin d’aide à nouveau.",
-        "Bonne continuation et à la prochaine !"
-    ]
+        "Bonne continuation et à la prochaine !"]
     },
 
     {

@@ -49,7 +49,7 @@ def get_responses(msg):
      for intent in intents['intents']:
         if tag == intent['tag']:
             return random.choice(intent['responses'])
-    return "I don't understand..."
+    return "Désolé, je ne comprends pas votre question. Veuillez la reformuler ou contacter un administrateur via WhatsApp : https://wa.me/675802143"
 
 if __name__ == "__main__":
     print("Bienvenue a WebAgency! ('bye' pour terminer la discussion)")

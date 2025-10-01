@@ -1,11 +1,12 @@
 import json
-from nltk_utils import tokenize, stem, bag_of_words
+from nltk_utils import tokenize, bag_of_words # 'stem' a été retiré car nous allons le redéfinir
 import numpy as np
 import os
 
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader 
+from nltk.stem.snowball import FrenchStemmer
 
 from model import NeuralNet
 
@@ -15,6 +16,9 @@ intents_file_path = os.path.join(script_dir, 'intents.json')
 
 with open(intents_file_path, 'r', encoding='utf-8') as f:
     intents=json.load(f)
+
+# Initialiser le stemmer français
+stemmer = FrenchStemmer()
 
 all_words =[]
 tags=[]
@@ -28,7 +32,7 @@ for intent in intents['intents']:
         xy.append((w, tag))
 
 ignore_words=['?','!','.',',']
-all_words=[stem(w) for w in all_words if w not in ignore_words]
+all_words=[stemmer.stem(w) for w in all_words if w not in ignore_words]
 all_words = sorted(set(all_words))
 tags= sorted(set(tags))
 x_train = []
