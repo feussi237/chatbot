@@ -46,7 +46,7 @@
         "Quels sont les services proposés par Web Agency ?"
         ],
         "responses": [
-        "Nous Proposons la Création de sites web, Télésurveillance & Sécurité, Maintenance Informatique, Conseils, nous formons egalement des Stagiaires & Apprenants. Pour obtenir un devis, rendez-vous sur notre page : https://webagency.com/devis.php"
+        "Nous Proposons la Création de sites web, Télésurveillance & Sécurité, Maintenance Informatique, Conseils, nous formons egalement des Stagiaires & Apprenants. Pour obtenir un devis, rendez-vous sur notre page : http://localhost/webagency/devis.php"
     ]
     },
 
@@ -163,30 +163,31 @@
         "Quels types de sites web proposez vous ?",
         "Quel genre de site web faites vous ?",
         "Vous créez quels sites ?",
-        "Je veux un site, que proposez vous ?",
+        "Je veux un site?",
+        "jaimerais un site web.",
         "Quelles sont vos offres de création de sites ?",
         "Vous faites des sites sur mesure ?",
         "Parlez moi des types de sites."
       ],
       "responses": [
-        "Nous concevons des sites vitrines, e commerce, institutionnels, et sur mesure selon les besoins du client.",
+        "Nous concevons des sites vitrines, e commerce, institutionnels, et sur mesure selon les besoins du client. Pour obtenir un devis, rendez-vous sur notre page : http://localhost/webagency/devis.php",
         "Nous créons des sites vitrines, des plateformes e commerce, des blogs, des portails d’entreprise et bien plus encore, tous adaptés à vos besoins."
       ]
     },
     {
       "tag": "solution_responsive",
       "patterns": [
-        "Est ce que vous proposez une solution responsive ?",
+        "Est ce que vos sites sont responsive ?",
         "Est ce que vous créez des sites adaptés aux mobiles ?",
         "Mon site sera t il visible sur téléphone ?",
         "Vos sites fonctionnent sur tablette ?",
         "Le design est il adaptatif ?",
-        "Faites vous des sites mobile friendly ?",
+        "Faites vous des sites mobile ?",
         "Est-ce que le site s'affiche bien partout ?"
       ],
       "responses": [
-        "Bien sûr ! Tous nos sites sont adaptables aux écrans mobiles, tablettes et ordinateurs.",
-        "Oui, tous nos sites sont responsifs, donc parfaitement accessibles sur smartphones et tablettes."
+        "Bien sûr ! Tous nos sites sont adaptables aux écrans mobiles, tablettes et ordinateurs. Pour obtenir un devis, rendez-vous sur notre page : http://localhost/webagency/devis.php",
+        "Oui, tous nos sites sont responsifs, donc parfaitement accessibles sur smartphones et tablettes. Pour obtenir un devis, rendez-vous sur notre page :http://localhost/webagency/devis.php"
       ]
     },
     {
@@ -200,7 +201,7 @@
         "Proposez vous la traduction de site web ?"
       ],
       "responses": [
-        "Oui, nous intégrons des fonctionnalités multilingues selon votre cible et vos préférences."
+        "Oui, nous intégrons des fonctionnalités multilingues selon votre cible et vos préférences. Pour obtenir un devis, rendez-vous sur notre page : http://localhost/webagency/devis.php"
       ]
     },
     {
@@ -214,7 +215,7 @@
         "Je veux créer un site de vente."
       ],
       "responses": [
-        "Absolument. Nous créons des boutiques en ligne avec gestion des stocks, paiements sécurisés et suivi des commandes."
+        "Absolument. Nous créons des boutiques en ligne avec gestion des stocks, paiements sécurisés et suivi des commandes. Pour obtenir un devis, rendez-vous sur notre page : http://localhost/webagency/devis.php"
       ]
     },
     {
@@ -319,7 +320,7 @@
       ],
       "responses": [
         "Installation de caméras IP, accès à distance, alertes en temps réel et enregistrement sécurisé.",
-        "Il inclut l’installation de caméras, alarmes, contrôles d’accès, avec surveillance à distance."
+        "Il inclut l’installation de caméras, alarmes, contrôles d’accès, avec surveillance à distance. Pour obtenir un devis, rendez-vous sur notre page : http://localhost/webagency/devis.php"
       ]
     },
     {
@@ -396,7 +397,7 @@
       "Qui contacter pour une aide technique ?"
     ],
     "responses": [
-      "Oui, notre équipe est disponible pour vous accompagner avant, pendant et après votre projet."
+      "Oui, notre équipe est disponible pour vous accompagner avant, pendant et après votre projet. contacter un administrateur via WhatsApp : https://wa.me/675802143"
     ]
   },
   {
@@ -460,7 +461,7 @@
       "Avez vous un plan de maintenance ?"
     ],
     "responses": [
-      "Préventive, curative et évolutive. Nous assurons la stabilité, la sécurité et les mises à jour de vos systèmes."
+      "Préventive, curative et évolutive. Nous assurons la stabilité, la sécurité et les mises à jour de vos systèmes. contacter un administrateur via WhatsApp : https://wa.me/675802143"
     ]
   },
   {
@@ -529,8 +530,8 @@
         "Quel est le prix pour un site web ?"
       ],
       "responses": [
-        "Nos tarifs varient en fonction de la complexité de chaque projet. Pour obtenir un devis précis et gratuit, le mieux est de nous contacter directement via notre page de contact. Nous serons ravis d'étudier votre besoin.",
-        "Chaque projet est unique ! Pour vous donner un prix juste, nous avons besoin de comprendre vos attentes. N'hésitez pas à demander un devis gratuit sur notre site."
+        "Nos tarifs varient en fonction de la complexité de chaque projet. Pour obtenir un devis précis et gratuit, Pour obtenir un devis, rendez-vous sur notre page : http://localhost/webagency/devis.php",
+        "Chaque projet est unique ! Pour vous donner un prix juste, nous avons besoin de comprendre vos attentes. Pour obtenir un devis, rendez-vous sur notre page : http://localhost/webagency/devis.php"
       ]
     },
     {
@@ -556,6 +557,23 @@
       ],
       "responses": [
         "Nous sommes toujours intéressés par des collaborations enrichissantes. N'hésitez pas à nous contacter via notre formulaire de contact pour nous présenter votre projet de partenariat."
+      ]
+    },
+    {
+      "tag": "parler_humain",
+      "patterns": [
+        "Je veux parler à un humain",
+        "Parler à un conseiller",
+        "Je veux contacter quelqu'un",
+        "Mettez-moi en relation avec un humain",
+        "Je veux parler à une personne réelle",
+        "Contacter le support",
+        "Comment puis-je parler à quelqu'un ?",
+        "J'ai besoin de parler à un agent"
+      ],
+      "responses": [
+        "Pour parler à un membre de notre équipe, vous pouvez nous contacter via notre page de contact sur le site web, ou directement sur WhatsApp ici : https://wa.me/675802143",
+        "Je comprends. Pour une assistance personnalisée, vous pouvez contacter notre support client via la page 'Contact' de notre site ou par WhatsApp. Voici le lien direct : https://wa.me/675802143"
       ]
     }
 
