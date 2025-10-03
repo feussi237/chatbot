@@ -40,7 +40,6 @@ def get_responses(msg):
         "vidéo": "service_telesurveillance",
         "camera": "service_telesurveillance",
         "caméra": "service_telesurveillance",
-        # Ajout de 40+ nouveaux mots-clés
         "services": "services",
         "adresse": "localisation_agence",
         "localisation": "localisation_agence",

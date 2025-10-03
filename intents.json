@@ -24,6 +24,29 @@
     },
     
     {
+    "tag": "robot",
+    "patterns": [
+      "Tu es un homme ?",
+      "Tu es une femme ?",
+      "Es tu un robot ?",
+      "Tu es réel ?",
+      "comment tu t'appelles ?",
+      "Qui es tu ?",
+      "sava ?",
+      "ca va ?",
+      "Comment tu vas ?",
+      "Qui est tu"
+    ],
+    "responses": [
+        "Je suis un assistant virtuel créé pour vous aider avec vos questions sur Web Agency.",
+        "Je suis un programme informatique conçu pour répondre à vos questions et vous assister.",
+        "Je ne suis pas humain, mais je suis là pour vous aider du mieux que je peux !",
+        "Je suis un chatbot, un assistant virtuel prêt à vous aider avec vos besoins."
+    ]
+    },
+    
+
+    {
     "tag": "services",
     "patterns": [
         "Quels sont les services de webagency ?",
@@ -43,7 +66,9 @@
         "Quels sont les services que vous offrez ?",
         "Quels sont les services de votre entreprise ?",
         "Quels sont les services proposés par l'agence ?",
-        "Quels sont les services proposés par Web Agency ?"
+        "Quels sont les services proposés par Web Agency ?",
+        "Parle moi de l'entreprise",
+        "Quels services propose l'agence ?"
         ],
         "responses": [
         "Nous Proposons la Création de sites web, Télésurveillance & Sécurité, Maintenance Informatique, Conseils, nous formons egalement des Stagiaires & Apprenants. Pour obtenir un devis, rendez-vous sur notre page : https://topetudecameroun.cm/devis.php"
@@ -62,7 +87,9 @@
         "On se reparle plus tard",
         "Merci, au revoir",
         "Bonne soirée",
-        "Ciao"
+        "Ciao",
+        "okay",
+        "ok"
         ],
         "responses": [
         "Au revoir ! Passez une excellente journée !",
@@ -136,10 +163,11 @@
         "Quelles sont les raisons de travailler avec vous ?",
         "Pourquoi WEB AGENCY ETS ?",
         "Donnez moi de bonnes raisons de vous engager.",
-        "Qu'est ce que j'y gagne en vous choisissant ?"
+        "Qu'est ce que j'y gagne en vous choisissant ?",
+        "Qui êtes vous ?"
       ],
       "responses": [
-        "Parce que nous sommes une agence de confiance, reconnue pour notre sérieux, notre expertise et notre engagement à respecter les accords initiaux. Nos clients nous recommandent pour notre professionnalisme et nos résultats concrets."
+        "Webagency est une agence de confiance, reconnue pour son sérieux, son expertise et son engagement à respecter les accords initiaux. Nos clients nous recommandent pour notre professionnalisme et nos résultats concrets."
       ]
     },
     {
@@ -164,7 +192,7 @@
         "Quel genre de site web faites vous ?",
         "Vous créez quels sites ?",
         "Je veux un site?",
-        "jaimerais un site web.",
+        "j'aimerais un site web.",
         "Quelles sont vos offres de création de sites ?",
         "Vous faites des sites sur mesure ?",
         "Parlez moi des types de sites."
@@ -458,7 +486,8 @@
       "Quels types de maintenance informatique offrezvous ?",
       "Maintenance curative disponible ?",
       "Quels sont les niveaux de maintenance que vous gérez ?",
-      "Avez vous un plan de maintenance ?"
+      "Avez vous un plan de maintenance ?",
+      "Vous faites les maintenance ?"
     ],
     "responses": [
       "Préventive, curative et évolutive. Nous assurons la stabilité, la sécurité et les mises à jour de vos systèmes. contacter un administrateur via WhatsApp : https://wa.me/675802143"
@@ -565,6 +594,7 @@
         "Je veux parler à un humain",
         "Parler à un conseiller",
         "Je veux contacter quelqu'un",
+        "Je veux vous contacter",
         "Mettez-moi en relation avec un humain",
         "Je veux parler à une personne réelle",
         "Contacter le support",
@@ -574,6 +604,24 @@
       "responses": [
         "Pour parler à un membre de notre équipe, vous pouvez nous contacter via notre page de contact sur le site web, ou directement sur WhatsApp ici : https://wa.me/675802143",
         "Je comprends. Pour une assistance personnalisée, vous pouvez contacter notre support client via la page 'Contact' de notre site ou par WhatsApp. Voici le lien direct : https://wa.me/675802143"
+      ]
+    },
+
+    {
+    "tag": "help",
+    "patterns": [
+      "Aide",
+      "Que peux tu faire ?",
+      "Tu peut faire quoi ?",
+      "Que sais tu faire ?",
+      "Comment tu peux m'aider ?",
+      "Je besoin d'aide",
+      "Peux tu m'aider ?",
+      "help ?"
+    ],
+    "responses": [
+        "Je peux vous renseigner sur nos services comme la création de sites web, la télésurveillance, la sécurité, la maintenance informatique et bien plus. Posez-moi une question sur un sujet précis ! Par exemple : Quels services proposez-vous ?\n Quels sont vos tarifs ?\n Où êtes-vous situés ?\nFaites vous des sites marchands ?\nComment sécuriser mon réseau ?\nProposez vous des solutions de sauvegarde ?\nJe veux un devis pour un site web.",
+        "Je suis là pour répondre à vos questions sur Web Agency. Vous pouvez me demander des informations sur nos services. ! Par exemple : 'Quels sont vos tarifs ?\nVos techniciens peuvent ils venir à domicile ?\nQuels types de maintenance informatique offrezvous ?\nProposez vous des solutions e commerce ?\nEst ce que vos sites sont responsive ?\nFaites vous du référencement ?\nComment sécurisez vous les réseaux ?\nPuis je avoir un site web multilingue ?"
       ]
     }
 
