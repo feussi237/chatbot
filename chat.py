@@ -33,6 +33,70 @@ bot_name = "ChatBot"
 
 
 def get_responses(msg):
+    # Dictionnaire de mots-clés et leurs tags correspondants
+    keyword_map = {
+        # Mots-clés existants
+        "video": "service_telesurveillance",
+        "vidéo": "service_telesurveillance",
+        "camera": "service_telesurveillance",
+        "caméra": "service_telesurveillance",
+        # Ajout de 40+ nouveaux mots-clés
+        "services": "services",
+        "adresse": "localisation_agence",
+        "localisation": "localisation_agence",
+        "situé": "localisation_agence",
+        "avantages": "atouts_agence",
+        "différents": "atouts_agence",
+        "choisir": "pourquoi_choisir_agence",
+        "raisons": "pourquoi_choisir_agence",
+        "créée": "creation_agence",
+        "créations": "creation_agence",
+        "histoire": "creation_agence",
+        "site web": "types_sites_web",
+        "responsive": "solution_responsive",
+        "mobile": "solution_responsive",
+        "multilingue": "site_multilingue",
+        "langues": "site_multilingue",
+        "ecommerce": "solution_ecommerce",
+        "e-commerce": "solution_ecommerce",
+        "boutique": "solution_ecommerce",
+        "temps": "delai_creation_site",
+        "délai": "delai_creation_site",
+        "hébergement": "hebergement_maintenance",
+        "maintenance": "hebergement_maintenance",
+        "référencement": "referencement_seo",
+        "seo": "referencement_seo",
+        "google": "referencement_seo",
+        "réseau": "securisation_reseaux",
+        "vpn": "securisation_reseaux",
+        "pare-feu": "securisation_reseaux",
+        "télésurveillance": "service_telesurveillance",
+        "alarme": "securisation_bureaux",
+        "maison": "solutions_domiciles",
+        "vsat": "antenne_vsat",
+        "assistance": "assistance_client",
+        "support": "assistance_client",
+        "suivi": "suivi_projet",
+        "projet": "suivi_projet",
+        "sauvegarde": "sauvegarde_donnees",
+        "données": "sauvegarde_donnees",
+        "tarifs": "tarifs",
+        "prix": "tarifs",
+        "coût": "tarifs",
+        "devis": "tarifs",
+        "stage": "stage_emploi",
+        "emploi": "stage_emploi",
+        "recrutez": "stage_emploi",
+        "partenariat": "partenariats",
+        "humain": "parler_humain",
+        "parler": "parler_humain",
+        "conseiller": "parler_humain"
+    }
+    for keyword, tag in keyword_map.items():
+        if keyword in msg.lower():
+            for intent in intents['intents']:
+                if intent['tag'] == tag:
+                    return random.choice(intent['responses'])
     sentence = tokenize(msg)
     X=bag_of_words(sentence, all_words)
     X=X.reshape(1, X.shape[0])
