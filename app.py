@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from chat import get_responses
 import nltk
-#nltk.download('punkt_tab')
+nltk.download('punkt_tab')
 
 app = Flask(__name__)
 
