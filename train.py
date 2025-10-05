@@ -1,5 +1,5 @@
 import json
-from nltk_utils import tokenize, bag_of_words # 'stem' a été retiré car nous allons le redéfinir
+from nltk_utils import tokenize, bag_of_words 
 import numpy as np
 import os
 

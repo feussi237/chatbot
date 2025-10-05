@@ -36,7 +36,6 @@ def get_responses(msg):
     # Dictionnaire de mots-clés et leurs tags correspondants
     keyword_map = {
         # Mots-clés existants
-        "video": "service_telesurveillance",
         "vidéo": "service_telesurveillance",
         "camera": "service_telesurveillance",
         "caméra": "service_telesurveillance",
@@ -89,7 +88,9 @@ def get_responses(msg):
         "partenariat": "partenariats",
         "humain": "parler_humain",
         "parler": "parler_humain",
-        "conseiller": "parler_humain"
+        "conseiller": "parler_humain",
+        "contact": "contact",
+        "feedback": "feedback",
     }
     for keyword, tag in keyword_map.items():
         if keyword in msg.lower():
@@ -112,7 +113,7 @@ def get_responses(msg):
      for intent in intents['intents']:
         if tag == intent['tag']:
             return random.choice(intent['responses'])
-    return "Désolé, je ne comprends pas votre question. Veuillez la reformuler ou contacter un administrateur via WhatsApp : https://wa.me/675802143"
+    return "Désolé, je ne comprends pas votre question. Ecrivez Help ou esseyer la reformuler votre question "
 
 if __name__ == "__main__":
     print("Bienvenue a WebAgency! ('bye' pour terminer la discussion)")
